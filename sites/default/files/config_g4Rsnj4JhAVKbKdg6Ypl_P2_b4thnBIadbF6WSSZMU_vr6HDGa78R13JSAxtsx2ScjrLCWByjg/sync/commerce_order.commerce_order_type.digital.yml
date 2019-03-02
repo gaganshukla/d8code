@@ -1,0 +1,15 @@
+uuid: bb79c49e-2181-48d2-be6a-5d79a19755f4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BRFBNH0FnLQMdsYTMeFAYUk5vIgThYVOLEmOBXYCW0w
+label: Digital
+id: digital
+workflow: order_default
+refresh_mode: always
+refresh_frequency: 30
+sendReceipt: true
+receiptBcc: ''
+traits: {  }
+locked: false

@@ -1,0 +1,9 @@
+uuid: 65f74192-e2ec-4c37-9615-5d3062323adf
+langcode: en
+status: true
+dependencies: {  }
+id: recruiter
+label: Tutor
+weight: 3
+is_admin: null
+permissions: {  }

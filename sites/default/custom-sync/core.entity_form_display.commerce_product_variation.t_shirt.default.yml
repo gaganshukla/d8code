@@ -1,0 +1,63 @@
+uuid: eb24feb2-43f0-4dbc-b7c0-e3cfbff67504
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.t_shirt
+    - field.field.commerce_product_variation.t_shirt.attribute_color
+    - field.field.commerce_product_variation.t_shirt.attribute_size
+    - field.field.commerce_product_variation.t_shirt.weight
+  module:
+    - commerce_price
+    - physical
+_core:
+  default_config_hash: jZ8g5owxyflYPP5mVK0jwqaDEFspTdAIRaALyS72UCQ
+id: commerce_product_variation.t_shirt.default
+targetEntityType: commerce_product_variation
+bundle: t_shirt
+mode: default
+content:
+  attribute_color:
+    type: options_select
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  attribute_size:
+    type: options_select
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  list_price:
+    type: commerce_list_price
+    weight: -1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  price:
+    type: commerce_price_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  sku:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  weight:
+    type: physical_measurement_default
+    weight: 4
+    region: content
+    settings:
+      default_unit: lb
+      allow_unit_change: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

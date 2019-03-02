@@ -1,0 +1,10 @@
+uuid: 131bd34a-d482-490e-a894-d791d7e03932
+langcode: en
+status: true
+dependencies: {  }
+id: t_products
+label: 'T products'
+orderItemType: default
+generateTitle: null
+traits: {  }
+locked: false

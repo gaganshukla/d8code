@@ -1,0 +1,9 @@
+uuid: cf07e283-0b8a-444f-b099-064c72d0789f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Preferred location'
+vid: preferred_location
+description: ''
+hierarchy: 0
+weight: 0

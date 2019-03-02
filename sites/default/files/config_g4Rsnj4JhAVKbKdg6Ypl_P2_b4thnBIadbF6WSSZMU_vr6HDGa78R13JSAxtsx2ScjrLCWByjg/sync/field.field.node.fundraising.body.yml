@@ -1,0 +1,22 @@
+uuid: 91d31ce9-e879-4f72-b4a4-da790bf320df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fundraising
+  module:
+    - text
+id: node.fundraising.body
+field_name: body
+entity_type: node
+bundle: fundraising
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

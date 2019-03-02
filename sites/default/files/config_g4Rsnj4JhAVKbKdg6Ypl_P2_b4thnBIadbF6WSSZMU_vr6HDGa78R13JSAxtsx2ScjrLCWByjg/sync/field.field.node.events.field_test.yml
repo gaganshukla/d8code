@@ -1,0 +1,21 @@
+uuid: fc6dada6-b040-423d-b758-605058f47e47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test
+    - node.type.events
+id: node.events.field_test
+field_name: field_test
+entity_type: node
+bundle: events
+label: test
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_type'
+  handler_settings: {  }
+field_type: entity_reference

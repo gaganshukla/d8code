@@ -1,0 +1,20 @@
+uuid: 61798b22-8dcf-48bf-a10b-594a490aaca3
+langcode: en
+status: true
+dependencies:
+  module:
+    - hello
+  theme:
+    - webshop
+id: webshop_hello
+theme: webshop
+region: sidebar_first
+weight: 0
+provider: null
+plugin: hello_block
+settings:
+  id: hello_block
+  label: Hello!
+  provider: hello
+  label_display: visible
+visibility: {  }

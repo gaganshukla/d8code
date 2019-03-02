@@ -1,0 +1,16 @@
+uuid: 0169dc1e-058d-4aec-8a8d-58a1b2a1cfa4
+langcode: en
+status: true
+dependencies: {  }
+id: tutor_profile
+label: 'tutor profile'
+registration: true
+multiple: false
+roles:
+  recruiter: recruiter
+  authenticated: '0'
+  administrator: '0'
+  candidate: '0'
+weight: 0
+use_revisions: false
+description: ''

@@ -1,0 +1,10 @@
+uuid: d78c4dc8-fcd7-4cc4-b8ca-03a1c7958c14
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.recruiter
+label: Recruiter
+targetEntityType: user
+cache: true

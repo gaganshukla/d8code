@@ -1,0 +1,17 @@
+uuid: 9ef3955a-dd4b-4d67-b869-a3bc5b5943b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Donation
+type: donation
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

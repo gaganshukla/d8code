@@ -1,0 +1,23 @@
+uuid: 76e17865-f28e-4ebc-aaa9-6d8436dde7ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_action_link
+    - node.type.page
+  module:
+    - link
+id: node.page.field_action_link
+field_name: field_action_link
+entity_type: node
+bundle: page
+label: 'Action link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

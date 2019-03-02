@@ -1,0 +1,15 @@
+uuid: a5c0b857-d695-4c1f-bf7e-c57b495449e3
+langcode: en
+status: true
+dependencies: {  }
+name: '1440_763'
+label: '1440*743'
+effects:
+  30c430cf-10a8-4488-8023-871666b62a4a:
+    uuid: 30c430cf-10a8-4488-8023-871666b62a4a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1440
+      height: 743
+      anchor: center-center

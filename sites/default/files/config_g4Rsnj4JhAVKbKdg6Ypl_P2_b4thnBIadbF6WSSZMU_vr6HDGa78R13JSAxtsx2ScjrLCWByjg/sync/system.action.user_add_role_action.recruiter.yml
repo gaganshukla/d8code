@@ -1,0 +1,14 @@
+uuid: 32038852-d35a-4bd6-af19-da72ad76d8ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.recruiter
+  module:
+    - user
+id: user_add_role_action.recruiter
+label: 'Add the Recruiter role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: recruiter

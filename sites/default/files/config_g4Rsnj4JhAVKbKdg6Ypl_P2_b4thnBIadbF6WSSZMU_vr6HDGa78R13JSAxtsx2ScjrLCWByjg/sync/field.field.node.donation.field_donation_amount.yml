@@ -1,0 +1,23 @@
+uuid: f36cdfbe-9530-4a61-8f1a-c77d94848656
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_donation_amount
+    - node.type.donation
+id: node.donation.field_donation_amount
+field_name: field_donation_amount
+entity_type: node
+bundle: donation
+label: 'Donation amount'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

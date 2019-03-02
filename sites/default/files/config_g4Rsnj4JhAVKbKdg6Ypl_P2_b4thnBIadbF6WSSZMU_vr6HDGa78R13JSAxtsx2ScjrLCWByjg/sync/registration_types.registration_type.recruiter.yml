@@ -1,0 +1,16 @@
+uuid: 2bbb9850-ee1f-468e-bfdd-131bcdbd5796
+langcode: en
+status: true
+dependencies: {  }
+id: recruiter
+label: Recruiter
+enabled: true
+display: recruiter
+custom_path: ''
+tab_title: 'Recruiter Registration'
+roles:
+  recruiter: recruiter
+  administrator: '0'
+  candidate: '0'
+page_title: 'Register as a Recruiter'
+description: ''

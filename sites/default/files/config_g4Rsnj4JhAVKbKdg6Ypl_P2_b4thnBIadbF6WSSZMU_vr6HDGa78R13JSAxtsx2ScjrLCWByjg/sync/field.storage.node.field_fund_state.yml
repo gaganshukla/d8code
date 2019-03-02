@@ -1,0 +1,27 @@
+uuid: 442e0248-f501-4785-83dd-0d40c38a3c24
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_fund_state
+field_name: field_fund_state
+entity_type: node
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 0
+      label: Open
+    -
+      value: 1
+      label: Closed
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

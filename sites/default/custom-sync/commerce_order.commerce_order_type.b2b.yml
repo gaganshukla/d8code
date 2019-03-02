@@ -1,0 +1,15 @@
+uuid: ea2479c7-b9b8-44f9-91d8-528247508734
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: if3DzgEJ2F4Csv4v0HErZlCSJ-igW6wPLZc_fRyRvzs
+label: 'Business to Business'
+id: b2b
+workflow: order_default
+refresh_mode: always
+refresh_frequency: 30
+sendReceipt: true
+receiptBcc: ''
+traits: {  }
+locked: false

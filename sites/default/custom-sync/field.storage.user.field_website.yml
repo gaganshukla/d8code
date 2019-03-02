@@ -1,0 +1,21 @@
+uuid: 85d4aeeb-65ba-4d07-83ae-d75815e064fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_website
+field_name: field_website
+entity_type: user
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

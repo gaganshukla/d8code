@@ -1,0 +1,9 @@
+uuid: d8a85d40-8b0e-4dc0-a46b-1233b4fd53db
+langcode: en
+status: true
+dependencies: {  }
+name: 'Type of contract'
+vid: type_of_contract
+description: 'for recuirter and candidate'
+hierarchy: 0
+weight: 0

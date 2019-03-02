@@ -1,0 +1,32 @@
+uuid: 3c105f59-d64c-4bf0-a01a-a5aa872234ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_user_tutor
+    - node.type.page
+id: node.page.field_user_tutor
+field_name: field_user_tutor
+entity_type: node
+bundle: page
+label: 'User Tutor'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: role
+      role:
+        recruiter: recruiter
+        administrator: '0'
+        candidate: '0'
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

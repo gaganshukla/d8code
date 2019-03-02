@@ -1,0 +1,30 @@
+uuid: 75ee6edb-02c9-491f-80c1-6365c0882bd5
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_icon_3
+field_name: field_icon_3
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: flash_on
+      label: Flash
+    -
+      value: group
+      label: Group
+    -
+      value: settings
+      label: Gear
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

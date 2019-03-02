@@ -1,0 +1,20 @@
+uuid: ad476347-c2c3-49d2-b87d-8172fbef3a5f
+langcode: en
+status: false
+dependencies:
+  module:
+    - commerce_payment_example
+_core:
+  default_config_hash: HVAZrn12LMkeTWzfevFybVFjAYKIPvMunJXq-XkEc5k
+id: example_on_site
+label: 'Example On-site'
+weight: null
+plugin: example_onsite
+configuration:
+  api_key: fsdfdsfsdsdf
+  display_label: Example
+  mode: test
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

@@ -1,0 +1,12 @@
+uuid: 0d87203e-c390-444b-bbe5-dea7be906518
+langcode: en
+status: true
+dependencies: {  }
+id: t_products
+label: 'T products'
+description: ''
+variationType: t_products
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

@@ -1,0 +1,16 @@
+uuid: b047e130-d1a9-478f-80dd-0deec65b8c02
+langcode: en
+status: true
+dependencies: {  }
+id: candidate
+label: Candidate
+enabled: true
+display: candidate
+custom_path: ''
+tab_title: 'Candidate Registration'
+roles:
+  candidate: candidate
+  administrator: '0'
+  recruiter: '0'
+page_title: 'Register as a candidate'
+description: ''

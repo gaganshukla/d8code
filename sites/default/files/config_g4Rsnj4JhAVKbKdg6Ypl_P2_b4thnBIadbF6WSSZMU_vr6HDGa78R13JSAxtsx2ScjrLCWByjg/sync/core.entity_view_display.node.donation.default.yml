@@ -1,0 +1,40 @@
+uuid: 83c06be4-6eb6-423b-8d4b-892d7b580aaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.donation.body
+    - field.field.node.donation.field_donation_amount
+    - node.type.donation
+  module:
+    - text
+    - user
+id: node.donation.default
+targetEntityType: node
+bundle: donation
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_donation_amount:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

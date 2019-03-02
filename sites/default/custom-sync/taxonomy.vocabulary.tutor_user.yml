@@ -1,0 +1,9 @@
+uuid: 348c049c-0e6d-4253-a6a3-9619e1b2946e
+langcode: en
+status: true
+dependencies: {  }
+name: 'Tutor user'
+vid: tutor_user
+description: ''
+hierarchy: 0
+weight: 0

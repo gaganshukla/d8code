@@ -1,0 +1,24 @@
+uuid: 4d105334-6e7e-47b6-a132-2c99e7d2d5a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-right
+  module:
+    - system
+  theme:
+    - webshop
+id: footerright
+theme: webshop
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-right'
+settings:
+  id: 'system_menu_block:footer-right'
+  label: 'Footer Right'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

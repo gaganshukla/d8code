@@ -1,0 +1,22 @@
+uuid: 86b56d6a-73dc-4c14-9cb4-5b09fbfeebad
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - webshop
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: webshop_messages
+theme: webshop
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

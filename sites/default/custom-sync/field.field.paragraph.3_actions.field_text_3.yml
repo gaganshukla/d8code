@@ -1,0 +1,21 @@
+uuid: 824bb281-a930-45cf-bebb-56afdd5b8221
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_3
+    - paragraphs.paragraphs_type.3_actions
+  module:
+    - text
+id: paragraph.3_actions.field_text_3
+field_name: field_text_3
+entity_type: paragraph
+bundle: 3_actions
+label: 'Text 3'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

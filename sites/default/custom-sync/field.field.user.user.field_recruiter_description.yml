@@ -1,0 +1,21 @@
+uuid: 38afe715-9c32-491a-be6c-01761283f737
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_recruiter_description
+  module:
+    - text
+    - user
+id: user.user.field_recruiter_description
+field_name: field_recruiter_description
+entity_type: user
+bundle: user
+label: 'Recruiter description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

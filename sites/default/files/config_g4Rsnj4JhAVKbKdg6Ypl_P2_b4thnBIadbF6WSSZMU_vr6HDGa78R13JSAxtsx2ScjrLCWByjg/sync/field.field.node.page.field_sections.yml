@@ -1,0 +1,41 @@
+uuid: 2a23e67b-6dac-4207-8985-b216f4e7e2b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sections
+    - node.type.page
+    - paragraphs.paragraphs_type.3_actions
+    - paragraphs.paragraphs_type.image_with_title
+    - paragraphs.paragraphs_type.title_with_text
+  module:
+    - entity_reference_revisions
+id: node.page.field_sections
+field_name: field_sections
+entity_type: node
+bundle: page
+label: Sections
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      3_actions: 3_actions
+      image_with_title: image_with_title
+      title_with_text: title_with_text
+    target_bundles_drag_drop:
+      3_actions:
+        enabled: true
+        weight: 4
+      image_with_title:
+        enabled: true
+        weight: 5
+      title_with_text:
+        enabled: true
+        weight: 6
+field_type: entity_reference_revisions

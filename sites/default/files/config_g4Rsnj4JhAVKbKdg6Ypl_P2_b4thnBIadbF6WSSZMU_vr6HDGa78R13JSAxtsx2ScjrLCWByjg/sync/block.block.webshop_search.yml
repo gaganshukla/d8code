@@ -1,0 +1,22 @@
+uuid: 8287051e-3cd4-4e0e-a582-3d6d08c2a9f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - webshop
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: webshop_search
+theme: webshop
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

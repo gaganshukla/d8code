@@ -1,0 +1,14 @@
+uuid: 0ae2f1b5-fac0-4f7a-ad79-567224fef56b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: s9wkU8xbczCa1d-6cSHhlS-mZ4VagUm6ZBKNN-DLrIs
+id: ebook
+label: eBook
+description: ''
+variationType: ebook
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

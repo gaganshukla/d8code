@@ -1,0 +1,21 @@
+uuid: 6d948a49-5001-4743-a062-b405aea9453a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fundraising_description_
+    - node.type.fundraising
+  module:
+    - text
+id: node.fundraising.field_fundraising_description_
+field_name: field_fundraising_description_
+entity_type: node
+bundle: fundraising
+label: 'Fundraising description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

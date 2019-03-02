@@ -1,0 +1,15 @@
+uuid: ac1956f3-7d56-4501-afa8-2c559f6a2fac
+langcode: en
+status: true
+dependencies: {  }
+name: '1440_801'
+label: '1440*801'
+effects:
+  40b5973a-633f-4c9f-83b3-5d3ba194fa3d:
+    uuid: 40b5973a-633f-4c9f-83b3-5d3ba194fa3d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1440
+      height: 800
+      anchor: center-center

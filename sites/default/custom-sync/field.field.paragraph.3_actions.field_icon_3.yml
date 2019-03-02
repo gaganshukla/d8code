@@ -1,0 +1,21 @@
+uuid: ca86b302-c789-48ce-a353-0c4129281f9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon_3
+    - paragraphs.paragraphs_type.3_actions
+  module:
+    - options
+id: paragraph.3_actions.field_icon_3
+field_name: field_icon_3
+entity_type: paragraph
+bundle: 3_actions
+label: 'Icon 3'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

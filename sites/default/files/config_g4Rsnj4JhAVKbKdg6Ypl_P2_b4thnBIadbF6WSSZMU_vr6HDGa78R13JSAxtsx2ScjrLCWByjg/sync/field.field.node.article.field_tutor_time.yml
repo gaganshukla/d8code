@@ -1,0 +1,24 @@
+uuid: f9d93a28-b551-455c-b4a8-54448316405f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tutor_time
+    - node.type.article
+  module:
+    - datetime
+id: node.article.field_tutor_time
+field_name: field_tutor_time
+entity_type: node
+bundle: article
+label: 'Tutor time'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

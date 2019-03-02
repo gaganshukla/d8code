@@ -1,0 +1,22 @@
+uuid: f84c25b9-0899-478c-8ea3-c08ff07e1e84
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - webshop
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: webshop_help
+theme: webshop
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

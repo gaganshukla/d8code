@@ -1,0 +1,46 @@
+uuid: 4f74e95f-a026-422d-a277-9149c54466d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.ebook
+    - field.field.commerce_product.ebook.body
+    - field.field.commerce_product.ebook.stores
+    - field.field.commerce_product.ebook.variations
+  module:
+    - commerce_product
+    - text
+_core:
+  default_config_hash: pjdAM7dQRJsWdjBOMMgawV6PK9dA_O-eIBVAHlvg_Mw
+id: commerce_product.ebook.default
+targetEntityType: commerce_product
+bundle: ebook
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: -4
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  variations:
+    type: commerce_add_to_cart
+    weight: 0
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  stores: true
+  uid: true

@@ -1,0 +1,10 @@
+uuid: 16957330-cb28-4206-a0b6-8665db5c814a
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.candidate
+label: Candidate
+targetEntityType: user
+cache: true

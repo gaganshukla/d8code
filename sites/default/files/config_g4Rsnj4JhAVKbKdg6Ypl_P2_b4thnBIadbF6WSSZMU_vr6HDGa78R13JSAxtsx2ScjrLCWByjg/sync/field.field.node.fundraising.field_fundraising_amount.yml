@@ -1,0 +1,23 @@
+uuid: 8ddd18c1-139e-4925-a503-178b56780baa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fundraising_amount
+    - node.type.fundraising
+id: node.fundraising.field_fundraising_amount
+field_name: field_fundraising_amount
+entity_type: node
+bundle: fundraising
+label: 'Fundraising amount'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

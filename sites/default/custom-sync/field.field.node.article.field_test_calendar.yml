@@ -1,0 +1,57 @@
+uuid: 0c663354-59af-4788-8985-da433560a702
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test_calendar
+    - node.type.article
+  module:
+    - addtocalendar
+id: node.article.field_test_calendar
+field_name: field_test_calendar
+entity_type: node
+bundle: article
+label: 'test calendar'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Hire me'
+  off_label: 'Add to Calendar Disabled'
+  addtocalendar_show: 1
+  addtocalendar_settings:
+    style: blue
+    atc_title:
+      field: field_tutor_time
+      tokenized: Title
+    atc_description:
+      field: field_tutor_time
+      tokenized: Description
+    atc_location:
+      field: title
+      tokenized: Location
+    atc_organizer:
+      field: token
+      tokenized: d8
+    atc_organizer_email:
+      field: token
+      tokenized: gagan.shukla@newtechfusion.com
+    atc_date_start:
+      field: field_tutor_time
+      tokenized: ''
+    atc_date_end:
+      field: field_tutor_time
+      tokenized: ''
+    atc_privacy: public
+    data_secure: auto
+    data_calendars:
+      'Google Calendar': 'Google Calendar'
+      iCalendar: 0
+      Outlook: 0
+      'Outlook Online': 0
+      'Yahoo! Calendar': 0
+field_type: add_to_calendar_field

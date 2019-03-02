@@ -1,0 +1,14 @@
+uuid: 5c1a693e-95f5-4b26-829a-bc4e4eda9017
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: VThJs-xLibTjNRN1gFAKA3SXIjE7_b-SdfEDZZJo_sM
+id: t_shirt
+label: T-Shirt
+description: ''
+variationType: t_shirt
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

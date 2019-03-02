@@ -1,0 +1,21 @@
+uuid: 61b63ba3-1a90-4050-a559-4fc808ae2f03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.tutor_profile.field_tutor_calendar
+    - profile.type.tutor_profile
+  module:
+    - addtocalendar
+id: profile.tutor_profile.default
+targetEntityType: profile
+bundle: tutor_profile
+mode: default
+content:
+  field_tutor_calendar:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: add_to_calendar_widget_type
+    region: content
+hidden: {  }

@@ -1,0 +1,30 @@
+uuid: 27c78b81-b31d-45d6-8cdb-e4c082c7f899
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fundraising.body
+    - node.type.fundraising
+  module:
+    - text
+    - user
+id: node.fundraising.teaser
+targetEntityType: node
+bundle: fundraising
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

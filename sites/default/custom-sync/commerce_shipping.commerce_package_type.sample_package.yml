@@ -1,0 +1,14 @@
+uuid: c2fdf09b-33ab-4ecc-afd1-eefceddde706
+langcode: en
+status: true
+dependencies: {  }
+id: sample_package
+label: 'sample package'
+dimensions:
+  length: '10'
+  width: '8'
+  height: '6.5'
+  unit: ft
+weight:
+  number: '500'
+  unit: g
